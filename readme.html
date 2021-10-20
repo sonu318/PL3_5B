@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converts Centigrade to Fahrenheit</title>
+</head>
+<style>
+    img {
+        display: block;
+    }
+
+    a {
+        font-size: 20px;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 120%;
+    }
+
+    nav {
+        overflow: hidden;
+        background-color: #333;
+        padding: 10px;
+        text-align: center;
+    }
+
+
+    .container {
+        width: 60%;
+        margin: auto;
+        background-color: rgb(202, 228, 131);
+        padding: 25px;
+    }
+</style>
+
+<body>
+    <div class="container">
+    <center><h2>Write a code in any programming language that converts 
+        Centigrade to Fahrenheit.</h2></center>
+
+    <section id="nav">
+        <nav>
+            <a href="#code">Code</a>
+            <a href="#result">Results</a>
+            <a href="#variables">Variables</a>
+            <a href="#complexity">Complexity</a>
+            <a href="#reference">Reference</a>
+        </nav>
+    </section>
+
+    <article id="code">
+        <h1>Code</h1>
+        <textarea id="w3review" name="w3review" rows="20" cols="60">
+        
+            #include<iostream>
+            using namespace std;
+                 
+            int main()
+            {
+            float fahrenheit, celsius;
+                 
+            cout << "Enter the temperature in Celsius : ";
+            cin >> celsius;
+            fahrenheit = (celsius * 9.0) / 5.0 + 32;
+            cout << "The temperature in Celsius    : " 
+            << celsius << endl;
+            cout << "The temperature in Fahrenheit : "
+             << fahrenheit << endl;
+            return 0;
+            }
+        </textarea>
+    </article>
+
+    
+
+    <section id="result">
+
+        <h1>Results</h1>
+        <h3>Sample Output 1</h3>
+        <img src="output1.jpg" alt="input" height="100px" width="500px">
+
+        <h3>Sample Output 2</h3>
+        <img src="output2.jpg" alt="output" height="100px" width="500px">
+    </section>
+
+    <section id="variables">
+        <h1>Variables Used</h1>
+        <ul>
+            <li>celsius:temperature in celsius</li>
+            <li>fahrenheit:temperature in fahrenheit</li>
+        </ul>
+    </section>
+
+    <section id="complexity">
+        <h1>Complexity</h1>
+        <h3><i>O(1)</i></h3>
+    </section>
+
+
+    </div>
+
+</body>
+</html>
